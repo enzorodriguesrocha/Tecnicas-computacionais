@@ -1,7 +1,7 @@
 
 export const perguntas = [
     {
-        enunciado: "O que você acha da IA?",
+        enunciado: "O que você acha das bets?",
         alternativas: [
             {
                 texto: "É assustadora.",
@@ -9,39 +9,39 @@ export const perguntas = [
                 proxima: 1,
             },
             {
-                texto: "É interessante.",
-                afirmacao: ["Você ficou curioso."],
+                texto: "É legal.",
+                afirmacao: ["Você gosta disso."],
                 proxima: 1,
             },
         ]
     },
 
     {
-        enunciado: "Como a IA pode ajudar?",
+        enunciado: "As bets trazem algum beneifcio?",
         alternativas: [
             {
-                texto: "Nos estudos.",
-                afirmacao: ["A IA pode ajudar a aprender."],
+                texto: "Não.",
+                afirmacao: ["Hmm..."],
                 proxima: 2,
             },
             {
-                texto: "Nas tarefas.",
-                afirmacao: ["A IA pode ajudar no dia a dia."],
+                texto: "SIm, elas fazem você ganhar dinheiro.",
+                afirmacao: ["dinheiro é sempre bom."],
                 proxima: 2,
             },
         ]
     },
 
     {
-        enunciado: "Como usar a IA?",
+        enunciado: "Como jogar nas bets?",
         alternativas: [
             {
                 texto: "Com responsabilidade.",
-                afirmacao: ["É importante usar a IA com cuidado."],
+                afirmacao: ["É importante usar as bets com cuidado."],
             },
             {
-                texto: "Sem verificar.",
-                afirmacao: ["É importante conferir as informações."],
+                texto: "Depositar todo dinheiro em conta e testar a sorte.",
+                afirmacao: ["testar a sorte..."],
             },
         ]
     }
